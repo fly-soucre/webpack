@@ -1,0 +1,31 @@
+#box1 {
+  width: 300px;
+  height: 300px;
+  background-image: url("../img/1.jpg");
+}
+
+#box2 {
+  width: 300px;
+  height: 300px;
+  background-image: url("../img/2.png");
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: gray;
+}
+
+@font-face {
+  font-family: "MyFont";
+  src: url("../font/2.ttf") format("ttf"),
+    url("../font/1.ttf") format("ttf");
+  font-weight: bold;
+  font-style: normal;
+}
+
+.text {
+  color: red;
+  font-family: "MyFont";
+  font-size: 34px;
+}
